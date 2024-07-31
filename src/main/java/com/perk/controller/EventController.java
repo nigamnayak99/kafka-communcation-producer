@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("/communication")
+@RequestMapping("kafka/producer")
 @RequiredArgsConstructor
 public class EventController {
 
